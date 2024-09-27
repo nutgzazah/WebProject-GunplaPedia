@@ -24,29 +24,30 @@ npm start
 After npm start, the program should be executed properly!!
 
 ## Project Preview Images
-<div style="width: 100%; overflow: hidden;">
-  <img src="Preview IMG/1.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/2.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/3.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/4.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/5.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/6.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/7.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/7.1.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/8.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/9.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/10.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/12.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/13.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/14.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/15.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/16.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/17.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/18.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/19.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/20.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/21.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/22.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/23.png" alt="Logo" width="500" style="float: left; margin-right: 10px;" />
-  <img src="Preview IMG/24.png" alt="Logo" width="500" style="float: left;" />
+<div style="width: 100%; display: flex; flex-wrap: wrap;">
+  <img src="Preview IMG/1.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/2.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/3.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/4.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/5.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/6.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/7.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/7.1.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/8.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/9.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/10.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/12.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/13.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/14.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/15.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/16.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/17.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/18.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/19.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/20.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/21.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/22.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/23.png" alt="Logo" style="width: 49%; margin-right: 1%;" />
+  <img src="Preview IMG/24.png" alt="Logo" style="width: 49%;" />
 </div>
+
