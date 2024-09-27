@@ -21,7 +21,7 @@ npm start
 cd client
 npm start
 ```
-The program should be executed properly!!
+After npm start, the program should be executed properly!!
 
 ## Project Preview Images
 <div style="width: 100%; overflow: hidden;">
