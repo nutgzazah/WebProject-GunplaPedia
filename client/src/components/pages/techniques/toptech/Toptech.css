@@ -1,0 +1,29 @@
+.headtech {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('./paint1.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.headtech h1 {
+    padding-top: 8%;
+    font-size: 50px;
+    opacity: 0; 
+  animation: fadeIn 1s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+ 
+  
+
+  

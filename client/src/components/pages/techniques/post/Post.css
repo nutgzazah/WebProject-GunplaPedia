@@ -1,0 +1,141 @@
+.posts{
+    width: 90%;
+    margin: 30px auto 30px;
+    margin-bottom: 300px;
+    color: #0D0D34;
+}
+
+.posts a{
+    text-decoration: none;
+}
+
+.posts .head-preview{
+    margin-bottom: 5px;
+    font-size: 27px;
+}
+
+.posts .head-preview a{
+    color: #0D0D34;
+}
+
+.posts .main-posts{
+    width: 70%;
+    float: left;
+}
+
+.posts .main-posts .post .posts-preview .preview-text{
+    margin-top: 7px;
+    height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #9b9b9b;
+}
+.posts .main-posts .post{
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+
+.posts .main-posts .post .btn-posts {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: .5rem 1rem;
+    background: #fb2f38;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-right: 10px;
+}
+
+.posts .main-posts .post .posts-image{
+    widows: 40%;
+    height: 100%;
+    float: left;
+    width: 340px;
+}
+
+.posts .main-posts .post .posts-preview {
+    width: 60%;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.posts .main-posts .recently-post-title{
+    margin: 20px;
+}
+
+
+.posts .main-posts .post .btn-posts:hover{
+    background: #a02026;
+    color: white !important;
+}
+
+.posts .sidebar-posts{
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.posts .section-search,.posts .section-topics{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.posts .section-search{
+    margin-top: 85px;
+}
+
+.posts .section-search .section-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.posts .section-title{
+    font-size: 25px;
+}
+
+.text-posts-input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: #444;
+    line-height: 0.1rem;
+}
+
+.posts .section-topics ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+.posts .section-topics ul li a{
+    display: block;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #0D0D34;
+    transition: all 0.3s;
+}
+
+.posts .section-topics ul li a:hover{
+    padding-left: 10px;
+    transition: all 0.3s;
+    color: #fb2f38;
+}
+
+

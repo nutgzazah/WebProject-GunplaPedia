@@ -1,0 +1,113 @@
+.banner {
+    background-color: #0D0D34;
+    color: white;
+}
+
+.meaning{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 6rem;
+}
+
+.heading-mean{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.heading-mean span{
+  margin-left: 10px;
+  color: #fb2f38;
+}
+
+.meaning-img{
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meaning-img img{
+  width: 90%;
+  border-radius: 50%;
+  border: .2rem solid #fb2f38;
+}
+
+.meaning-img .circles-spin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(0);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top: .2rem solid #0D0D34;
+  border-bottom: .2rem solid #0D0D34;
+  border-left: .2rem solid #fb2f38;
+  border-right: .2rem solid #fb2f38;
+  animation: meaningSpinner 8s linear infinite;
+}
+
+.meaning-content{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.meaning-content p{
+  font-size: 1.3rem;
+  margin: 2rem 0 3rem;
+}
+
+.btn-box-mean a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background: #fb2f38;
+  border: 2px solid #fb2f38;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #0D0D34;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.btn-box-mean a:hover{
+  color: #fb2f38;
+}
+
+.btn-box-mean a::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #0D0D34;
+  z-index: -1;
+  transition: .5s;
+}
+
+.btn-box-mean a:hover::before{
+  width: 100%;
+}
+
+@keyframes meaningSpinner{
+  100%{
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

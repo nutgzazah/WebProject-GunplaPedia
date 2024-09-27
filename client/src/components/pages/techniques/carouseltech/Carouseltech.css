@@ -1,0 +1,69 @@
+
+.pst-wrapper {
+    color: #0D0D34;
+    width: 80%;
+    margin: 0 auto; 
+
+    .slick-list {
+      overflow: hidden;
+    }
+  }
+  
+  .card {
+    width: 300px;
+    height: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px 10px;
+    padding: 10px;
+    box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+  }
+
+  .pst-wrapper a {
+    text-decoration: none;
+    color: black;
+  }
+
+.pst-wrapper a:hover{
+    color: #fb2f38;
+}
+  
+  /* Card Image */
+  .card-img {
+    width: 100%;
+    height: 200px; /* กำหนดความสูงของรูปภาพ */
+    object-fit: cover; /* ให้รูปภาพเต็มพื้นที่และไม่ถูกตัด */
+    border-radius: 8px; /* โค้งมุมรูป */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาบริเวณรูปภาพ */
+  }
+  
+  /* Card Info */
+  .card-info {
+    padding: 0px 5px;
+    background-color: #f8f9fa; /* สีพื้นหลังของส่วนข้อมูลบนการ์ด */
+    border-radius: 0 0 8px 8px; /* โค้งมุมส่วนข้อมูลที่ด้านล่าง */
+  }
+  
+  /* Arrows */
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .slick-prev {
+    left: -30px; 
+  }
+  
+  .slick-next {
+    right: -30px; 
+  }
+  
+  .slick-arrow:hover {
+    opacity: 0.8; 
+  }
+  

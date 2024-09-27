@@ -1,0 +1,28 @@
+.brands{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.wrapperes {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    justify-content: space-between;
+
+}
+
+
+.brands .itemess img {
+    opacity: 0.25;
+    transition: opacity 0.3s;
+    height: 90%;
+    width: 90%; 
+    object-fit: cover; 
+    margin-right: 10px; 
+}
+
+
+.brands .itemess a:hover img {
+    opacity: 1;
+}

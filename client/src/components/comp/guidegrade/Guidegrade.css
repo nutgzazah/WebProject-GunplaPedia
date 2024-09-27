@@ -1,0 +1,37 @@
+.grade-container {
+    display: flex;
+    align-items: center;
+}
+
+.grade-image {
+    width: 150px; /* กำหนดขนาดของรูปภาพ */
+    height: 70px; /* กำหนดขนาดของรูปภาพ */
+    margin-right: 10px; 
+    margin-left: 5.5rem;
+}
+
+.group-grade{
+    margin-left: 5rem;
+}
+
+.grade-title {
+    font-size: 22px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.grade-flex {
+    display: flex;
+}
+
+.gbtns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.manage-user-container {
+    display: flex;
+  }
+  
+  .manage-user {
+    flex-grow: 1;
+    margin-right: 20px; 
+  }

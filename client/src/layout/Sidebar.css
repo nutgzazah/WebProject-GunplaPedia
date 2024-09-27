@@ -1,0 +1,33 @@
+
+
+.sidebar-links:hover{
+    color: red;
+}
+
+.menu-bars{
+    color: white;
+}
+
+.ps-menuitem-root {
+    color: white;
+    background: #0D0D34;
+}
+
+
+.ps-submenu-content{
+    color: red;
+}
+
+.MuiButtonBase-root svg{
+    color: white;
+}
+
+a.ps-menu-button{
+    background: #0D0D34;
+}
+
+.sticky-sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }

@@ -1,0 +1,22 @@
+.hsearch{
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding-bottom: 100px;
+  background: linear-gradient(to bottom, #0D0D34, #000000);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hsearch h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}

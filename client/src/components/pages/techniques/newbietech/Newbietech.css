@@ -1,0 +1,95 @@
+#noob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+
+}
+
+.newbie-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newbie-heading span{
+    color: #fb2f38;
+}
+
+.newbie-heading h3{
+    font-size: 2.4rem;
+    color: #0D0D34;
+    font-weight: 600;
+}
+
+.newbie-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.noob-box{
+    width: 350px;
+    background-color: white;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.noob-img{
+    width: 100%;
+    height: auto;
+}
+
+.noob-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.noob-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noob-text span{
+    color: #fb2f38;
+    font-size: 0.9rem;
+}
+
+.noob-text .noob-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #0D0D34;
+}
+
+.noob-text .noob-title:hover{
+    color: #fb2f38;
+    transition: all ease-in 0.3s;
+}
+
+.noob-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.noob-text .noob-btn{
+    color: #0D0D34;
+}
+
+.noob-text .noob-btn:hover{
+    color: #fb2f38;
+    transition: all ease-in 0.1s;
+}

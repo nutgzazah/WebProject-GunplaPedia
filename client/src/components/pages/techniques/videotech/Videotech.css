@@ -1,0 +1,45 @@
+.vidtech{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+    color: #0D0D34;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.vidtech h1,h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vidtech h2{
+    margin-top: 150px;
+}
+
+.vidtech h2 span{
+    margin-left: 5px;
+    color: #fb2f38;
+}
+
+.vid-des{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* อนุญาตให้เนื้อหาย้ายไปยังบรรทัดใหม่ถ้าไม่พอดี */
+}
+
+.vid-des .players{
+    aspect-ratio: 16 / 9;
+    width: 700px;
+    aspect-ratio: 16 / 9; /* รักษาอัตราส่วนของวิดีโอ */
+}
+
+.vid-des p{
+    margin-left: 20px;
+    flex: 1 1 300px;
+    font-size: 17px;
+}
+
+

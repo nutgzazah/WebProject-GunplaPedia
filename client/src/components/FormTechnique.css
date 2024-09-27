@@ -1,0 +1,132 @@
+
+.form-technique-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ /* h2 {
+    text-align: center;
+} */
+
+.technique-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.img-preview-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img-preview {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.img-preview-container button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.data-table-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.technique-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.technique-table th,
+.technique-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    width: 200px; /* Adjusted width for better readability */
+}
+
+.technique-table th {
+    background-color: #f2f2f2;
+}
+
+.technique-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.technique-table td img {
+    width: 50px;
+    height: auto;
+}
+
+.technique-table button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.technique-table button:hover {
+    background-color: #ff4d4d;
+}

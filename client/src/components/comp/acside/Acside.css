@@ -1,0 +1,43 @@
+.sidebars_body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sidebars{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    padding: 6px 14px;
+    background: #0D0D34;
+}
+
+.sidebars .logo_contents .logo_side{
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.sidebars #btnside{
+    position: absolute;
+    color: white;
+    left: 90%;
+    top: 6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+.sidebars ul{
+    margin-top: 20px;
+}

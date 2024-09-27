@@ -1,0 +1,114 @@
+.main-recommend {
+    width: 100%;
+    height: 840px;
+    margin: 10px auto;
+    position: relative;
+    padding: 5px 0;
+}
+
+.main-recommend header{
+    width: 98%;
+    height: 60px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+}
+
+.main-recommend header p span {
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: #555;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.main-recommend header p span:hover{
+    color: red;
+}
+
+.main-recommend section {
+    width: 98%;
+    height: 800px;
+    margin-top: -100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: #ccc #fff; 
+}
+
+.main-recommend section::-webkit-scrollbar {
+    height: 8px; 
+}
+
+.main-recommend section .products{
+    min-width: 24%;
+    margin: 0 20px 0 0;
+    border-radius: 20px;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
+}
+
+.main-recommend section .products:hover {
+    transform: scale(1.03);
+}
+
+.godd{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.godd2{
+    width: 100%;
+    height: 100%;
+}
+
+.recom-details, .recom-button{
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    color: #444;
+}
+
+
+p.star{
+
+    width: 65%;
+    font-size: 20px;
+    color: #FED000;
+}
+
+.recommend-button{
+    cursor: pointer;
+    height: 35px;
+    width: 110px;
+    font-size: 13px;
+    background: #fb2f38;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.recommend-button:hover{
+    background: #b31f26;
+}

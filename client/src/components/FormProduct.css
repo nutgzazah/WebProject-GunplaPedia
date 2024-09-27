@@ -1,0 +1,131 @@
+/* Container for the form and table */
+.FormProduct-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form styling */
+.FormProduct-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.FormProduct-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormProduct-form-group label {
+    margin-bottom: 5px;
+}
+
+.FormProduct-form-group input[type="text"],
+.FormProduct-form-group input[type="number"],
+.FormProduct-form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.FormProduct-form-group input[type="file"] {
+    margin-top: 10px;
+}
+
+.FormProduct-submit-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.FormProduct-submit-button:hover {
+    background-color: #0056b3;
+}
+
+.FormProduct-img-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.FormProduct-img-preview-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.FormProduct-delete-button {
+    margin-top: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FormProduct-delete-button:hover {
+    background-color: #e53935;
+}
+
+/* Table styling */
+.FormProduct-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.FormProduct-table,
+.FormProduct-table th,
+.FormProduct-table td {
+    border: 1px solid #ddd;
+}
+
+.FormProduct-table th,
+.FormProduct-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.FormProduct-table th {
+    background-color: #f2f2f2;
+}
+
+.FormProduct-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.FormProduct-img-preview {
+    max-width: 100px;
+}
+
+.FormProduct-action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.FormProduct-action-button:hover {
+    background-color: #ff4d4d;
+}
+
+/* Missing closing braces added */

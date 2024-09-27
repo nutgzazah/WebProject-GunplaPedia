@@ -1,0 +1,103 @@
+.small-containers{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.pic-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.single-product{
+    margin-top: 80px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.single-product .col-2 img{
+    padding: 0;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin-top: 1.5rem;
+}
+
+.single-product h4{
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product .col-2 ul{
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+.single-product .col-2 ul li{
+    margin: 0;
+    list-style: none;
+    background-size: 18px;
+    margin: 0.4rem 0;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.single-product .col-2 ul li span{
+    font-weight: 400;
+}
+
+  .checkmark-icon {
+    color: green; /* Change color as needed */
+  }
+
+  .not-interested-icon {
+    color: red; /* Change color as needed */
+  }
+
+.purchase-info{
+    margin: 1.5rem 0;
+    display: flex;
+}
+
+.testgod{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.testgod > p{
+    margin-left: 6px;
+    color: rgb(252, 186, 3);
+    font-weight: 800;
+}
+
+.testgod2{
+    margin-left: 10px;
+    font-weight: 800;
+}
