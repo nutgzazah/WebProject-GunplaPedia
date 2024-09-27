@@ -1,16 +1,18 @@
 ## Overview
 
 ![Logo](assets/icons/ChessStone_logo.png)<br>
-**GunplaPedia** is a desktop application which provides a Chess GUI written in Python using PyQt5, along with an integrated chess engine written in pure Python.<br>
-Our program is focused on playing strength, and has an Elo rating of ~2150.
-
+**GunplaPedia** is Web Application for Gunpla Information And Collection Management GunplaPedia
+- Utilized MERN stack for development.
+- Implemented full CRUD functionality for managing Gunpla and user collection data.
+- Designed intuitive interfaces to deliver the best user experience.
 
 ## Installation
 
+In Terminal
 ```bash
 npm install
 ```
-And then Split Terminal for cd to server folder and client folder
+And then split 2 terminal for cd to server folder and cd to client folder
 ```bash
 cd server
 npm start
