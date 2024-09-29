@@ -1,7 +1,7 @@
 ## Overview
 
 <img src="LOGO.png" alt="Logo" width="200"/><br>
-**GunplaPedia** is Web Application for Gunpla Information And Collection Management
+**GunplaPedia** is Web Application for Gunpla Information And Collection Management.
 - Utilized MERN stack for development.
 - Implemented full CRUD functionality for managing Gunpla and user collection data.
 - Designed intuitive interfaces to deliver the best user experience.
